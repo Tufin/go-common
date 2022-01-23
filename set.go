@@ -1,5 +1,6 @@
 package common
 
+// Set unordered collection of objects in which duplicate values cannot be stored
 type Set struct {
 	// Using an empty struct{} has advantage that it doesn't require any additional space
 	// Go's internal map type is optimized for that kind of values
